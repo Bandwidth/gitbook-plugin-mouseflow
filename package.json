@@ -1,0 +1,31 @@
+{
+  "name": "gitbook-plugin-mouseflow",
+  "version": "1.0.0",
+  "description": "Add mouseflow code to gitbook ",
+  "scripts": {
+    "test": "echo \"No Tests\""
+  },
+  "keywords": [
+    "gitbook",
+    "talkus",
+    "live-chat"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtolb/gitbook-plugin-mouseflow"
+  },
+  "author": "Dan Tolbert",
+  "license": "MIT",
+  "engines": {
+    "gitbook": ">=3.0.0-pre.0"
+  },
+  "gitbook": {
+    "properties": {
+      "projectId": {
+        "description": "Identify your mouseflow projectId",
+        "required": true,
+        "type": "string"
+      }
+    }
+  }
+}
